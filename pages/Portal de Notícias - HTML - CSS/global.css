@@ -1,0 +1,87 @@
+.position-absolute {
+    position: absolute;
+}
+.img-fluid{
+    object-fit: cover;
+    height: 100%;
+}
+.position-relative {
+    position: relative;
+}
+.d-flex {
+    display: flex;
+}
+.d-none {
+    display: none;
+}
+.d-grid {
+    display: grid;
+}
+.news{
+    display: flex;
+    padding: 40px 40px 80px 40px;
+    gap: 16px;
+    align-items: stretch;
+}
+* {
+    color: #F1F5F9;
+    font-family: "Archivo";
+}
+.another-posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    grid-template-areas: 
+    "D A"
+    "B C";
+    flex: 1;
+}
+
+.highlights-post:nth-child(2){
+    grid-area: A;
+}
+.highlights-post:nth-child(3){
+    grid-area: B;
+}
+.highlights-post:nth-child(4){
+    grid-area: C;
+}
+.highlights-post:nth-child(5){
+    grid-area: D;
+}
+
+.title {
+    color: #F1F5F9;
+    font-family: "Archivo";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #F1F5F9;
+    font-family: "Archivo";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text {
+    color: #CBD5E1;
+    font-family: "Archivo";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-post img {
+    height: auto;
+}
+
+.another-posts {
+    height: 100%;
+}
+
+#posts .container {
+    gap: 32px;
+    margin: 0 40px;
+    display: flex;
+}
