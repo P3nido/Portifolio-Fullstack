@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+    width: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-content{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: end;
+    margin: 20px 32px;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-content span {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+#nav-header, #about-section {
+    background-color: #F5F5F5;
+}
+
+.about-main-content{
+    width: 592px;
+    display: flex;
+    padding: 32px;
+}
+
+.about-sec-img{
+    padding-right: 32px;
+}
+
+.title{
+    color: #313131;
+    font-size: 32px;
+    font-family: "Poppins";
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.description {
+    color: #6C6C6C;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+#about-section .container {
+    justify-content: space-between; 
+}
+.info-row{
+    display: flex;
+}
+.about-info{
+    margin: auto 0;
+    width: 280px;
+    padding: 68px 32px;
+}
+.info-content{
+    color: #6C6C6C;
+    font-family: "Poppins";
+    font-size: 14px;
+    line-height: 170%;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.info-row{
+    margin-bottom: 16px;
+}
+
+.topbar-logo{
+    margin: auto auto auto 32px;
+}
+
+.gallery {
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 24px 32px;
+    width: auto;
+    display: flex;
+}
+
+.card-photo{
+    display: flex;
+    margin: 10px;
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+    position: relative;
+}
+
+.card-photo:nth-child(2):hover .background-hover{
+    display: block;
+}
+
+.background-hover{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    backdrop-filter: blur(3px);
+    display: none;
+}
+
+.content-hover{
+    margin: 16px 24px;
+    font-family: "Poppins";
+    font-weight: 300;
+    line-height: 100%;
+    font-size: 14px;
+}
+
+footer {
+    color: #6C6C6C; 
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.second-content{
+    display: flex;
+    margin-right: 16px;
+}
+
+.second-content p {
+    padding-right: 16px;
+}
+
+.first-content{
+    padding-left: 24px;
+}
