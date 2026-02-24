@@ -1,0 +1,107 @@
+/* Colors */
+
+.red-color {
+    color: #E3646E;
+}
+.purple-color {
+    color: #BB72E9;   
+}
+.blue-color {
+    color: #3996DB;
+}
+.green-color {
+    color: #82BC4F;
+}
+.yelllow-color {
+    color: #EABD5F;
+}
+.gray-100{
+    color: #E2E4E9;
+}
+.gray-200{
+    color: #C0C4CE;
+}
+.gray-300{
+    color: #878EA1;
+}
+.gray-400{
+    color: #292C34;
+}
+.gray-500{
+    color: #16181D;
+}
+.gray-600{
+    color: #0D0E11;
+}
+
+/* Fonts */
+
+.title-lg {
+    font-family: 'Asap';
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: bold;
+}
+.title-md {
+    font-family: 'Asap';
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+}
+.title-sm {
+    font-family: 'Asap';
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: bold;
+}
+.subtitle {
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+}
+.text-md {
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+.text-sm {
+    font-family: 'Maven Pro';
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+/* Others */
+
+* {
+    text-decoration: none;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #16181D !important; 
+}
+.container{
+    margin: 0 40px;
+}
+.position-absolute {
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.d-flex {
+    display: flex !important;
+}
+.d-none {
+    display: none !important;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}

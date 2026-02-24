@@ -1,0 +1,261 @@
+#main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/Background_Intro.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#contact{
+    background-image: url("../assets/Background_Contacts.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+#my-jobs{
+    background-color: #16181D;
+    padding-top: 100px;
+    height: 70vh;
+}
+
+.ms-container {
+    position: relative;
+    max-width: 1200px;
+}
+
+.img-dev{
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+    border-radius: 100%;
+    background: conic-gradient(from 145deg, 
+        transparent 0deg, 
+        transparent 1deg, 
+        #82BC4F 1deg, 
+        #82BC4F 315deg, 
+        transparent 315deg, 
+        transparent 360deg);
+}
+
+.main-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 3px;
+    left: 75px;
+}
+
+.ms-dev-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.ms-dev-title, .ms-dev-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms-dev-subtitle div{
+    max-width: 700px;
+    padding: 10px 0 50px 0;
+}
+
+.main-icon-header{
+    width: 24px;
+    height: 24px;
+}
+
+.ms-card-tec{
+    background-color: #292C34;
+    padding: 8px 16px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms-dev-tec{
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.see-more{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see-more-icon{
+    width: 50px;
+    height: 50px;
+    transition: 0.3 ease;
+}
+
+.see-more-icon:hover{
+    transform: scale(1.05) rotate(0deg) translate(0px, -5px) skewX(0deg);
+    opacity: 1;
+    filter: brightness(1);
+    fill: #667eea;
+    color: #ffffff;
+}
+
+.mj-title, .mj-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mj-subtitle{
+    padding-bottom: 50px;
+}
+
+.my-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.my-card{
+    background-color: #292C34;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.my-card:hover{
+    transform: scale(1.05) rotate(0deg) translate(0px, -5px) skewX(0deg);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    filter: brightness(1);
+    color: #ffffff;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.img-preview{
+    padding: 12px 12px 20px 12px;
+    border-radius: 22px 22px 0 0;
+    max-width: 500px;
+}
+.name-project{
+    padding: 0 12px;
+}
+
+.description-project{
+    padding: 5px 12px 25px 12px;
+}
+.mysec-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px;
+}
+.mysec-title{
+    display: flex;
+    justify-content: center;
+}
+.mysec-subtitle{
+    padding-bottom: 55px;
+}
+.mysec-cards-container{
+    margin-bottom: 100px;
+    display: flex;
+    gap: 24px;
+}
+.mysec-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid #16181D;
+    border-radius: 12px;
+}
+.mysec-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#my-section{
+    background-color: #0D0E11;
+}
+
+#contact{
+    padding: 120px;
+}  
+
+.contact-container, .contact-title, .contact-subtitle, .contact-description {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-texts{
+    margin: 0 auto;
+}
+
+.contact-texts{
+    padding-bottom: 48px;
+}
+
+.contact-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-cards{
+    display: flex;
+    background-color: #292C34;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.contact-cards:hover{
+    border: 1px solid white;
+    transform: scale(1.05) rotate(0deg) translate(0px, -5px) skewX(0deg);
+}
+
+.contact-cards:hover svg path {
+    fill: #3996DB !important;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.contact-icon{
+    width: 26px;
+    height: 26px;
+}
+
+.contact-name{
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-first-content{
+    display: flex;
+}
+
+.contact-icon{
+    width: 30px;
+    height: 30px;
+}
